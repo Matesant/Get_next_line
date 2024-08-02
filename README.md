@@ -37,10 +37,10 @@ gcc -Wall -Werror -Wextra -D BUFFER_SIZE=xx get_next_line.c get_next_line_utils.
 ```
 Explanation:
 
-- -Wall -Werror -Wextra: Enable all warnings and treat them as errors.
-- -D BUFFER_SIZE=xx: Define the BUFFER_SIZE macro (replace xx with the desired buffer size).
-- -o get_next_line: Name the output file get_next_line.
-. -/get_next_line: Execute the compiled program.
+*-Wall -Werror -Wextra: Enable all warnings and treat them as errors.
+*-D BUFFER_SIZE=xx: Define the BUFFER_SIZE macro (replace xx with the desired buffer size).
+*-o get_next_line: Name the output file get_next_line.
+*-/get_next_line: Execute the compiled program.
 
 Or you can also use this third party tester to fully test the project
 
