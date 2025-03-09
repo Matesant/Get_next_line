@@ -33,14 +33,9 @@ To compile the project, go to its path and run:
 
 For __mandatory__ :
 ```
-$ make
+gcc -Wall -Werror -Wextra -D BUFFER_SIZE=10 get_next_line.c get_next_line_utils.c -o get_next_line main.c
 ```
-### 2. Cleaning all binary (.o) and executable files (.a)
 
-To delete all files generated with make, go to the path and run:
-```
-$ make fclean
-```
 ## Bonus
 
 Support multiple File Descriptors
@@ -49,12 +44,7 @@ To compile the bonus:
 
 For __bonus__ :
 ```
-$ make bonus
-```
-
-## Testing
-```
-gcc -Wall -Werror -Wextra -D BUFFER_SIZE=10 get_next_line.c get_next_line_utils.c -o get_next_line main.c
+gcc -Wall -Werror -Wextra -D BUFFER_SIZE=10 get_next_line_bonus.c get_next_line_utils_bonus.c -o get_next_line_bonus main.c
 ```
 
 ## Explanation
