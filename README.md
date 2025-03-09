@@ -53,7 +53,7 @@ $ make bonus
 
 ## Testing
 ```
-gcc -Wall -Werror -Wextra -D BUFFER_SIZE=xx get_next_line.c get_next_line_utils.c -o get_next_line && ./get_next_line
+gcc -Wall -Werror -Wextra -D BUFFER_SIZE=10 get_next_line.c get_next_line_utils.c -o get_next_line main.c
 ```
 
 ## Explanation
