@@ -42,7 +42,8 @@ To delete all files generated with make, go to the path and run:
 $ make fclean
 ```
 ## Bonus
-The bonus involves developing a checker to validate the output of the push swap program. This tool verifies that the sorting algorithm produces the correct results by ensuring that the final order of elements in the stacks meets the expected criteria.
+
+Support multiple File Descriptors
 
 To compile the bonus:
 
